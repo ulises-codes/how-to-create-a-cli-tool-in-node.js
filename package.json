@@ -1,0 +1,12 @@
+{
+  "name": "skynet",
+  "bin": "./index.js",
+  "scripts": {
+    "build": "tsc ./index.ts --esModuleInterop --skipLibCheck --moduleResolution node"
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  }
+}
